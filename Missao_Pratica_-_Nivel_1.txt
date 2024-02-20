@@ -1,0 +1,59 @@
+// Desenvolvimento da Missão Prática do 1º Nivel de Conhecimento
+
+// DESCRIÇÃO DA MISSÃO
+// Implementar um algoritmo para imprimir e somar todos os números
+// menores ou igual a um determinado número primo.
+
+// OBJETIVO 1
+// Utilizar comandos iterativos e condicionais para desenvolver o algoritmo
+
+// OBJETIVO 2
+// Fornecer um numero (N) para o algoritmo imprimir e somar todos os
+// numeros primos menores ou igual a N
+
+Algoritmo "Numeros Primos"
+
+// Autor(a)    : Rafael Valverde Fonseca
+// Data atual  : 03/11/2023
+
+Var
+// Seção de Declarações das variáveis
+numero: inteiro; // Numero fornecido pelo usuário
+i, j: inteiro; // Condicionais
+cont: inteiro; // Contador quantas vezes um numero é dividido por outro
+soma: inteiro; //somar os valores gerados
+
+Inicio
+
+i <- 2 // Numeros primos começam pelo 2
+
+   escreva("Digite um numero: ") // Pede para usuario digitar um número
+   leia(numero) // pega numero digitado
+
+para i de numero ate i passo -1 faca  // Repetição de todos os numero até chegar ao escolhido pelo usuário
+
+   enquanto j <= i faca  // Repetição de quantos divisores cada numero obtido é
+      se ((i % j) = 0) entao
+         cont <- cont + 1
+      fimse
+      j <- j + 1 // incremento para a repetição nao ficar infinita
+   fimenquanto
+
+   se (cont = 2) entao
+      escreval("O numero",i, " é primo")
+   soma <- soma+i
+   fimse
+
+   i <- i + 1
+   j <- 1
+   cont <- 0
+
+fimpara
+
+    escreval("")
+    escreva("A soma de todos os números primos menores iguais a")
+    escreva(numero)
+    escreva(" é")
+    escreval(soma)
+
+fimalgoritmo
