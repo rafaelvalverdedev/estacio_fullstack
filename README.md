@@ -18,16 +18,28 @@ Desenvolvimento Full Stack
             <li>Representação de Dados</li>
         </ol>
     <li><b>Nível 3:</b> Estruturando Dados</li>
+        <ol>
             <li>Pensamento Computacional e Aplicações Nas Áreas de Conhecimento</li>
             <li>Lógica Digital</li>
             <li>Análise de Algoritmo</li>
             <li>Estruturas de Dados Básicas do Python</li>
             <li>Modularização e Uso de Bibliotecas do Python</li>
+        </ol>
     <li><b>Nível 4:</b> Conhecendo Novos Paradigmas</li>
+        <ol>
             <li>Conceitos Básicos de SO</li>
             <li>Arquitetura Risc x Cisc</li>
             <li>Python Orientado a Objeto</li>
             <li>Python em Outros Paradigmas</li>
             <li>Interface Gráfica Com Python</li>
+        </ol>
     <li><b>Nível 5:</b> Colocando Tudo em Ordem e Guardando</li>
+        <ol>
+            <li>Processos e Gerência de Processador</li>
+            <li>Memória</li>
+            <li>Sistema de Arquivos</li>
+            <li>Manipulação de Dados em Arquivos</li>
+            <li>Algoritmos de Ordenação Básicos em Python</li>
+            <li>Algoritmos de Ordenação Avançados em Python</li>
+        </ol>
 </ul>
