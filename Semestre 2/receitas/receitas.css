@@ -1,0 +1,42 @@
+.card {
+    display: inline-table;
+    align-content: center;
+    width: 200px;
+    height: 450px;
+    background: #ede0d4;
+    background: linear-gradient(0deg, #ede0d4 0%, #ddb892 100%);
+    border: 1px solid hsl(30, 52%, 72%);
+    padding: 20px;
+    margin: 10px;
+}
+
+.card-title {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.card-img-top {
+    width: 250px;
+    height: 130px;
+    vertical-align: middle;
+    border: 1px solid #c2996d;
+    padding: 5px;
+}
+
+.card-img-top:hover {
+    background-color: #492a09;
+    border: 1px solid #492a09;
+       
+}
+
+ul {
+    align-content: center;
+    text-align: left;
+}
+
+.card-text {
+    text-align: left;
+
+}
