@@ -1,8 +1,8 @@
 .card {
     display: inline-table;
     align-content: center;
-    width: 200px;
-    height: 450px;
+    width: 300px;
+    height: 550px;
     background: #ede0d4;
     background: linear-gradient(0deg, #ede0d4 0%, #ddb892 100%);
     border: 1px solid hsl(30, 52%, 72%);
@@ -26,8 +26,8 @@
 }
 
 .card-img-top:hover {
-    background-color: #999999;
-    border: 1px solid #;
+    background-color: #492a09;
+    border: 1px solid #492a09;
        
 }
 
