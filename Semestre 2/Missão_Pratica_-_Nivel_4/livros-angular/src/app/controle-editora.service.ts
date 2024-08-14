@@ -4,6 +4,7 @@ import { Editora } from './editora';
 @Injectable({
   providedIn: 'root',
 })
+
 export class ControleEditoraService {
   private editoras: Array<Editora> = [
     { codEditora: 1, nome: 'Editora A' },
@@ -11,11 +12,12 @@ export class ControleEditoraService {
     { codEditora: 3, nome: 'Editora C' },
   ];
 
+  getNomeEditora(codEditora: number): string | undefined {
+    return this.editoras.find(editora => editora.codEditora === codEditora)?.nome;
+  }
+
   getEditoras(): Array<Editora> {
     return this.editoras;
   }
 
-  getNomeEditora(codEditora: number): string | undefined {
-    return this.editoras.find(editora => editora.codEditora === codEditora)?.nome;
-  }
 }

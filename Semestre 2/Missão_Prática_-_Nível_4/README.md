@@ -1,3 +1,0 @@
-# Pasta dedicada para o envio da Missão Prática do Nível 4
-
-## Conhecendo outros Frameworks

@@ -25,4 +25,5 @@ import { LivroDadosComponent } from './livro-dados/livro-dados.component';
   ],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

@@ -4,6 +4,7 @@ import { Livro } from './livro';
 @Injectable({
   providedIn: 'root',
 })
+
 export class ControleLivrosService {
   private livros: Array<Livro> = [
     { codigo: 1, codEditora: 1, titulo: 'Livro 1', resumo: 'Resumo do Livro 1', autores: ['Autor A', 'Autor B'] },
