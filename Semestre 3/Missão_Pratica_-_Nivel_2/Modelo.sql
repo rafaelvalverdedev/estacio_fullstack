@@ -1,12 +1,24 @@
 USE model;
 
 CREATE SEQUENCE sequencia
-    START WITH 1   -- Inicia a sequência a partir de 1
+    START WITH 1   -- Inicia a sequÃªncia a partir de 1
     INCREMENT BY 1 -- Incrementa de 1 em 1
-    MINVALUE 1     -- Valor mínimo permitido (1)
-    NO CYCLE;      -- Não reinicia a sequência quando atingir o valor máximo
+    MINVALUE 1     -- Valor mÃ­nimo permitido (1)
+    NO CYCLE;      -- NÃ£o reinicia a sequÃªncia quando atingir o valor mÃ¡ximo
 	
-	
+
+CREATE TABLE Pessoa (
+  id  INTEGER   NOT NULL ,
+  nome  VARCHAR(255)    ,
+  logradouro  VARCHAR(255)    ,
+  cidade VARCHAR(255)  ,
+  estado  VARCHAR(255)  ,
+  telefone  VARCHAR(255)  ,
+  email  VARCHAR(255)      ,
+PRIMARY KEY(id));
+
+
+
 CREATE TABLE Produtos (
   idProduto  INTEGER   NOT NULL ,
   nome  TEXT    ,
